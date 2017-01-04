@@ -4105,13 +4105,13 @@ nav .button-collapse {
   float: left;
   position: relative;
   z-index: 1;
-  height: 64px;
+  height: 94px;
 }
 
 nav .button-collapse i {
   font-size: 2.7rem;
   height: 94px;
-  line-height: 64px;
+  line-height: 94px;
 }
 
 nav .brand-logo {
