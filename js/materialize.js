@@ -445,6 +445,7 @@ if ($) {
 
   $(document).ready(function(){
     $('.collapsible').collapsible();
+    $(".button-collapse").sideNav();
   });
 }( jQuery ));;(function ($) {
 
@@ -453,7 +454,6 @@ if ($) {
   $.fn.scrollTo = function(elem) {
     $(this).scrollTop($(this).scrollTop() - $(this).offset().top + $(elem).offset().top);
     return this;
-    $(".button-collapse").sideNav();
   };
 
   $.fn.dropdown = function (options) {
