@@ -1169,13 +1169,12 @@ if ($) {
 };
 
 $(document).ready(function(){
+$(".dropdown-button").dropdown();	
   $('.materialboxed').materialbox();
 });
 
 }( jQuery ));
 ;(function ($) {
-
-	$(".dropdown-button").dropdown();
 
     $.fn.parallax = function () {
       var window_width = $(window).width();
