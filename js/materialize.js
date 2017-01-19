@@ -1175,6 +1175,8 @@ $(document).ready(function(){
 }( jQuery ));
 ;(function ($) {
 
+	$(".dropdown-button").dropdown();
+
     $.fn.parallax = function () {
       var window_width = $(window).width();
       // Parallax Scripts
@@ -7467,3 +7469,5 @@ Picker.extend( 'pickadate', DatePicker )
       }
     }; // Plugin end
 }( jQuery ));
+
+
