@@ -4074,10 +4074,10 @@ input[type=range] + .thumb {
 
 nav {
   color: #fff;
-  background-color: #ee6e73;
+  background-color: #fff;
   width: 100%;
-  height: 94px;
-  line-height: 94px;
+  height: 80px;
+  line-height: 80px;
 }
 
 nav a {
@@ -4089,8 +4089,8 @@ nav [class^="mdi-"], nav [class*="mdi-"],
 nav i.material-icons {
   display: block;
   font-size: 2rem;
-  height: 94px;
-  line-height: 94px;
+  height: 80px;
+  line-height: 80px;
 }
 
 nav .nav-wrapper {
@@ -4108,21 +4108,22 @@ nav .button-collapse {
   float: left;
   position: relative;
   z-index: 1;
-  height: 94px;
+  height: 80px;
 }
 
 nav .button-collapse i {
   font-size: 2.7rem;
-  height: 94px;
-  line-height: 94px;
+  height: 80px;
+  line-height: 80px;
 }
 
 nav .brand-logo {
   position: absolute;
-  color: #fff;
+  color: #000;
   display: inline-block;
   font-size: 2.1rem;
-  padding: 0;
+  padding: 0px;
+  margin-left: 30px;
   white-space: nowrap;
 }
 
@@ -4243,7 +4244,7 @@ nav .input-field label.active {
 
 .navbar-fixed {
   position: relative;
-  height: 94px;
+  height: 80px;
   z-index: 998;
 }
 
@@ -4253,11 +4254,11 @@ nav .input-field label.active {
 
 @media only screen and (min-width: 601px) {
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: 94px;
-    line-height: 94px;
+    height: 80px;
+    line-height: 80px;
   }
   .navbar-fixed {
-    height: 94px;
+    height: 80px;
   }
 }
 
