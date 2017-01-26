@@ -4107,7 +4107,7 @@ nav .nav-wrapper {
 nav .button-collapse {
   float: left;
   position: relative;
-  z-index: 1;
+  z-index: 0;
   height: 80px;
 }
 
@@ -8505,4 +8505,60 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
   background-color: #82B1FF;
   color: white;
+
 }
+
+  #tower1 {
+position:absolute;
+top:51px;
+left:20px;
+width:5px;
+height: 30px;
+background-color: #333;
+}
+
+#tower2 {
+position:absolute;
+top:31px;
+left:45px;
+width:5px;
+height: 50px;
+background-color: #33E;
+}
+
+#tower3 {
+position:absolute;
+top:11px;
+left:70px;
+width:5px;
+height: 70px;
+background-color: #3A3;
+}
+
+#tower4 {
+position:absolute;
+top:90px;
+left:20px;
+width:20px;
+height: 10px;
+background-color: #AAA;
+}
+
+#tower5 {
+position:absolute;
+top:90px;
+left:45px;
+width:5px;
+height: 17px;
+background-color: #AAD;
+}
+
+#tower6 {
+position:absolute;
+top:90px;
+left:70px;
+width:5px;
+height: 23px;
+background-color: #ADA;
+}
+
