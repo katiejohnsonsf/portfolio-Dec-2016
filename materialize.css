@@ -8668,5 +8668,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     font-family: GillSans, Calibri, Trebuchet, sans-serif;
   }
 
-
+.aboutkatie {
+  float: left;
+}
 
