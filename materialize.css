@@ -8665,10 +8665,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 
   html {
-    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+    font-family: Didact Gothic, Calibri, Trebuchet, sans-serif;
   }
 
-.aboutkatie {
-  float: left;
+.about {
+  z-index: -1;
 }
 
