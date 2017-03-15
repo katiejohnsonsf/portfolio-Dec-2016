@@ -4081,7 +4081,7 @@ nav {
 }
 
 nav a {
-  color: #fff;
+  color: #424242;
 }
 
 nav i,
@@ -8676,5 +8676,4 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   font-size: 42pts;
   line-height: 1.5;
 }
-
 
