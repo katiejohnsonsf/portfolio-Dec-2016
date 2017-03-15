@@ -8677,3 +8677,6 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   line-height: 1.5;
 }
 
+.blurb {
+  padding: 20px;
+}
