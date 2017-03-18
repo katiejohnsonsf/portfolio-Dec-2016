@@ -4082,7 +4082,7 @@ nav {
 
 nav a {
   color: #424242;
-  padding-left: 20px;
+  left-padding: 20px;
 }
 
 nav i,
@@ -4748,7 +4748,7 @@ small {
 }
 
 .card .card-image .card-title {
-  color: #424242;
+  color: #757575;
   position: absolute;
   bottom: 0;
   left: 0;
