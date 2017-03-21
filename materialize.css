@@ -5058,8 +5058,8 @@ a.hover .card-action {
 
 .btn, .btn-large {
   text-decoration: none;
-  color: #fff;
-  background-color: #26a69a;
+  color: #212121;
+  background-color: #00e676;
   text-align: center;
   letter-spacing: .5px;
   transition: .2s ease-out;
@@ -5097,7 +5097,7 @@ a.hover .card-action {
 }
 
 .btn-floating:hover {
-  background-color: #26a69a;
+  background-color: #00e676;
 }
 
 .btn-floating:before {
@@ -5268,6 +5268,7 @@ button.btn-floating {
  * Released under the MIT license
  * https://github.com/fians/Waves/blob/master/LICENSE
  */
+ 
 .waves-effect {
   position: relative;
   cursor: pointer;
