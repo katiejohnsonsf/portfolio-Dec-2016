@@ -4635,6 +4635,7 @@ small {
 .card .card-title {
   font-size: 24px;
   font-weight: 350;
+  text-shadow: 1px 1px 1px #fff;
 }
 
 .card .card-title.activator {
@@ -8681,4 +8682,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .blurb {
   padding: 20px;
+}
+
+.cardheader {
+    text-shadow: 1px 1px 1px #ff0;
 }
