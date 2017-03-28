@@ -8687,3 +8687,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .cardheader {
     text-shadow: 1px 1px 1px #ff0;
 }
+
+.introblurb {
+    line-height: 1.5;
+}
