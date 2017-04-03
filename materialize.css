@@ -8676,8 +8676,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 
 .hero {
-  font-size: 42pts;
-  line-height: 1.5;
+  font-size: 37px;
+  line-height: 1.75;
 }
 
 .blurb {
@@ -8690,4 +8690,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .introblurb {
     line-height: 1.5;
+
 }
+
+/* ADDED CLASS FOR TEXT-ALIGN JUSTIFY PROPERTY */
+.text-justify {
+text-align: justify;
+ }
