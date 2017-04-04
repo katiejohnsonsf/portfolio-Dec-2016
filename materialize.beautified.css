@@ -4252,11 +4252,13 @@ input[type=range]+.thumb {
 }
 
 nav {
-    color: #fff;
-    background-color: #fff;
+    background-color: transparent;
     width: 100%;
     height: 80px;
     line-height: 80px;
+    box-shadow: none;
+    opacity: 1;
+    padding-right: 20px;
 }
 
 nav a {
@@ -4275,6 +4277,7 @@ nav i.material-icons {
 }
 
 nav .nav-wrapper {
+    background-color: transparent;
     position: relative;
     height: 100%;
 }
@@ -4353,19 +4356,19 @@ nav ul {
 }
 
 nav ul li {
-    transition: background-color .3s;
+    transition: color .3s;
     float: left;
     padding: 0;
 }
 
 nav ul li.active {
-    background-color: rgba(0, 0, 0, 0.1);
+    color: #212121;
 }
 
 nav ul a {
-    transition: background-color .3s;
+    transition: color .3s;
     font-size: 1rem;
-    color: #4a4a4a;
+    color: #757575;
     display: block;
     padding: 0 15px;
     cursor: pointer;
@@ -4382,7 +4385,7 @@ nav ul a.btn-floating {
 }
 
 nav ul a:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    color: #bdbdbd;
 }
 
 nav ul.left {
@@ -4435,9 +4438,12 @@ nav .input-field label.active {
 }
 
 .navbar-fixed {
+    background-color: transparent;
     position: relative;
     height: 80px;
     z-index: 998;
+    box-shadow: none;
+    opacity: 1;
 }
 
 .navbar-fixed nav {
@@ -4869,11 +4875,15 @@ footer.page-footer .footer-copyright {
     background-color: #fff;
     transition: box-shadow .25s;
     border-radius: 2px;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .card .card-title {
     font-size: 24px;
     font-weight: 350;
+    text-shadow: 1px 1px 1px #fff;
 }
 
 .card .card-title.activator {
@@ -5495,7 +5505,7 @@ button.btn-floating {
 .dropdown-content li:hover,
 .dropdown-content li.active,
 .dropdown-content li.selected {
-    background-color: #eee;
+    color: #000;
 }
 
 .dropdown-content li.active.selected {
@@ -9130,7 +9140,7 @@ main {
 }
 
 html {
-    font-family: Muli, Calibri, Trebuchet, sans-serif;
+    font-family: Europa, Calibri, Trebuchet, sans-serif;
 }
 
 .about {
@@ -9138,24 +9148,50 @@ html {
 }
 
 .hero {
-    font-size: 42pts;
-    line-height: 1.5;
+    font-size: 29px;
+    line-height: 1.25;
 }
 
 .blurb {
     padding: 20px;
+    line-height: 1.5;
+    text-align: justify;
 }
 
-.photocircle {
-    width: 150px;
-    height: 150px;
-    border: solid 1px #555;
-    background-color: #eed;
-    box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
-    -webkit-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
-    -o-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
-    border-radius: 100px;
+.cardheader {
+    text-shadow: 1px 1px 1px #ff0;
 }
 
-- See more at: http: //www.corelangs.com/css/box/shadow.html#sthash.TMR2npig.dpuf
+.introblurb {
+    line-height: 1.5;
+    text-align: justify;
+    font-family: europa, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+/* ADDED CLASS FOR TEXT-ALIGN JUSTIFY PROPERTY */
+
+.text-justify {
+    text-align: justify;
+}
+
+.hello {
+    letter-spacing: -1px;
+}
+
+.picture {
+    padding-right: 40px;
+}
+
+.skilllist {
+    font-size: 20px;
+}
+
+.activenav {
+    color: #212121;
+    font-family: europa, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
