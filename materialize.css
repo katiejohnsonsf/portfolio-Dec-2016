@@ -8695,6 +8695,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   padding: 20px;
   line-height: 1.5;
   text-align: justify;
+  font-family: europa, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+
 }
 
 .cardheader {
@@ -8706,7 +8710,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     text-align: justify;
     font-family: europa, sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 200;
 
 }
 
