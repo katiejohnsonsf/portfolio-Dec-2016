@@ -4084,7 +4084,7 @@ nav {
 
 nav a {
   color: #424242;
-  left-padding: 20px;
+  left-padding: 40px;
 }
 
 nav i,
@@ -4099,6 +4099,7 @@ nav i.material-icons {
 nav .nav-wrapper {
   background-color: transparent;
   position: relative;
+  padding: 40px;
   height: 100%;
 }
 
@@ -4125,10 +4126,11 @@ nav .brand-logo {
   position: absolute;
   color: #000;
   display: inline-block;
-  font-size: 3.2rem;
+  font-size: 26px;
   padding: 0px;
   margin-left: 30px;
   white-space: nowrap;
+  letter-spacing: -1px;
 }
 
 nav .brand-logo.center {
@@ -8686,7 +8688,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 
 .hero {
-  font-size: 29px;
+  font-size: 24px;
   line-height: 1.25;
 
 }
@@ -8712,7 +8714,6 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
-
 }
 
 /* ADDED CLASS FOR TEXT-ALIGN JUSTIFY PROPERTY */
@@ -8721,7 +8722,7 @@ text-align: justify;
  }
 
 .hello {
-  letter-spacing: -1px;
+  letter-spacing: -.5px;
 }
 
 .picture {
@@ -8738,5 +8739,6 @@ text-align: justify;
   font-style: normal;
   font-weight: 600;
 }
+
 
  
