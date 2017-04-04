@@ -8681,6 +8681,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .hero {
   font-size: 29px;
   line-height: 1.5;
+
 }
 
 .blurb {
@@ -8703,6 +8704,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .text-justify {
 text-align: justify;
  }
+
+.hello {
+  letter-spacing: -1px;
+}
 
 
  
