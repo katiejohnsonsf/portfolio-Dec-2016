@@ -8668,7 +8668,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 
   html {
-    font-family: Muli, Calibri, Trebuchet, sans-serif;
+    font-family: Europa, Calibri, Trebuchet, sans-serif;
   }
 
 .about {
@@ -8682,6 +8682,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .blurb {
   padding: 20px;
+  line-height: 1.5;
+  text-align: justify;
 }
 
 .cardheader {
@@ -8690,6 +8692,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .introblurb {
     line-height: 1.5;
+    text-align: justify;
 
 }
 
@@ -8697,3 +8700,5 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .text-justify {
 text-align: justify;
  }
+
+ 
