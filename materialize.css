@@ -4073,11 +4073,13 @@ input[type=range] + .thumb {
 }
 
 nav {
-  color: #fff;
-  background-color: #fff;
+  background-color: transparent;
   width: 100%;
   height: 80px;
   line-height: 80px;
+  box-shadow: none;
+  opacity: 1;
+  padding-right: 20px;
 }
 
 nav a {
@@ -4095,6 +4097,7 @@ nav i.material-icons {
 }
 
 nav .nav-wrapper {
+  background-color: transparent;
   position: relative;
   height: 100%;
 }
@@ -4244,9 +4247,12 @@ nav .input-field label.active {
 }
 
 .navbar-fixed {
+  background-color: transparent;
   position: relative;
   height: 80px;
   z-index: 998;
+  box-shadow: none;
+  opacity: 1;
 }
 
 .navbar-fixed nav {
@@ -8680,7 +8686,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .hero {
   font-size: 29px;
-  line-height: 1.5;
+  line-height: 1.25;
 
 }
 
@@ -8697,6 +8703,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .introblurb {
     line-height: 1.5;
     text-align: justify;
+    font-family: europa, sans-serif;
+    font-style: normal;
+    font-weight: 300;
 
 }
 
@@ -8707,6 +8716,14 @@ text-align: justify;
 
 .hello {
   letter-spacing: -1px;
+}
+
+.picture {
+  padding-right: 40px; 
+}
+
+.skilllist {
+  font-size: 20px;
 }
 
 
