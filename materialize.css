@@ -4630,6 +4630,9 @@ small {
   background-color: #fff;
   transition: box-shadow .25s;
   border-radius: 2px;
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px; 
 }
 
 .card .card-title {
@@ -8700,5 +8703,6 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .text-justify {
 text-align: justify;
  }
+
 
  
