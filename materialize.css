@@ -4660,7 +4660,7 @@ small {
 
 .card.small .card-image, .card.medium .card-image, .card.large .card-image {
   max-height: 60%;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .card.small .card-image + .card-content, .card.medium .card-image + .card-content, .card.large .card-image + .card-content {

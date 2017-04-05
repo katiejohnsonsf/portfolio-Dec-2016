@@ -2087,7 +2087,7 @@ $(".dropdown-button").dropdown();
   var methods = {
     init : function(options) {
       var defaults = {
-        menuWidth: 300,
+        menuWidth: 100%,
         edge: 'right',
         closeOnClick: false
       };
